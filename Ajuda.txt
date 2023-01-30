@@ -1,0 +1,342 @@
+202208495877@alunos.estacio.br
+Você pode definir que ele contenha o DDD, com dois 
+caracteres numéricos, seguido por dois conjuntos de números – 
+um contendo 5 e outro contendo 3 ou 4 caracteres – o que geraria este código: 
+pattern=“\([0-9]{2}\) [0-9]{5}-[0-9]{3,4}$”.
+
+{item.charAt(0).toUpperCase() + item.slice(1)} = first letter upper
+
+let navigate = useNavigate();
+
+TOOLTIP - 
+PRECISA RETIRAR O STRIC MODE DO INDEX
+npm install react-tooltip
+
+Typescript para PROPS = 
+
+x: React.Dispatch<React.SetStateAction<string>>
+onClick: React.MouseEventHandler
+setModalData: React.Dispatch<React.SetStateAction<Product | undefined>> - lista unica
+
+
+
+
+
+
+npm para form hook:
+npm install react-hook-form yup
+npm install -D @types/yup
+npm install @hookform/resolvers yup
+
+SIMPLIFY = 
+
+function simplify(text){
+	const regex = /[\s,\.;:\(\)\-'\+];
+	return text.toUpperCase().split(regex)
+}
+
+
+npx create-react-app client --template typescript
+
+JAVASCRIPT = 
+
+-Transformar em Valores = ' n1 = parseInt(n1) ' ou  +n1
+-toString()
+adicionar classes = .classList.add(class)
+adicionando elemento css = .style.display = 'none'
+ var element = document.getElementById("myDIV");
+ element.classList.remove("mystyle");
+
+TYPESCRIPT =
+
+-Copiar mudando o diretorio = tsc src/script.ts --outDir public
+-tsc script.js
+x? = fazer types opcionais
+
+npm install @types/react-dom
+
+
+FONTAWESOME REACT = 
+-npm i --save @fortawesome/free-solid-svg-icons
+-npm i --save @fortawesome/free-regular-svg-icons
+-npm install @fortawesome/react-fontawesome
+-npm 
+
+
+HTML =
+Head code Icon = <script src="https://kit.fontawesome.com/2dd4af124c.js" crossorigin="anonymous"></script>
+
+{ INPUTS =
+<script src="https://kit.fontawesome.com/2dd4af124c.js" crossorigin="anonymous"></script>
+Tirar borda preta selecionado = outline: 0
+
+
+
+
+Sincronizar o JAVASCRIP NAO É 'LINK' ! E SIM 'CRIPT'
+}
+
+<div className={css.pagesContainer}>
+    <div className={css.pages}>Teste</div>
+</div>
+
+
+CSS =
+
+FIXAR ABSOLUTO =
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+{ UL =
+Tirar Pontos = list-style-type: none
+
+Tira
+
+span:nth-child(2) {
+    color: red;
+}
+
+Retirar quebra de linhas = white-space: nowrap
+
+Animação suave = transition: all 0.5s ease-out
+
+
+GRID = grid-template-columns: repeat(4, 1fr);
+
+}
+
+
+------------------------------
+REACT
+'
+npx create-react-app client --template typescript
+npm start = no terminal
+npm install react-router-dom react-dom axios
+npm install @types/react-router-dom
+
+npm init vite react-api --template react-ts
+cd NOME -> npm install
+npm run dev = no terminal
+'
+
+
+tailwind = 
+
+
+axios = 
+npm install axios
+
+router = 
+npm install react-router-dom
+
+redux = 
+npm install redux react-redux @reduxjs/toolkit
+npm install -D @types/react-redux
+
+tailwind =
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+|
+
+
+style normal = style={{backgroundColor:cor}}>
+style backgroundImage = backgroundImage: `url(${registerBg})`
+white-space: nowrap
+
+
+Criar Funcao = 
+	<div>
+  	   <button onClick={function}>Clique Aqui</button>
+	</div>
+
+
+Criar um state =
+	import {userState} from 'react'
+	const [x, setX] = useState(0)
+
+useEffect ao detectar = 
+	 useEffect(()=>{
+		FAÇA()
+ 	 }, [y, x])
+
+
+Unit Teste
+Integration Test
+E2E(END TO END)
+
+
+----------------------------
+            NODE
+
+npm init -y
+npx tsc --init
+npx -p typescript tsc --init
+
+tsc -w
+
+
+npm install cors dotenv express jsonwebtoken mongoose
+npm install @types/cors @types/express @types/jsonwebtoken @types/node @types/mongoose
+npm install -g typescript (no inicio do cmd )
+---------------------------------------------
+npm install --save-dev @types/validator
+
+npm install -g nodemon
+npm install -g ts-node
+npm install dotenv
+ts-node src/index.ts
+nodemon src/index.ts
+
+npm install express
+npm install @types/express
+
+"start-dev": "nodemon -e ts,json,mustache src/server.ts",
+
+node tutorial----------
+npm init
+tsc --init (DESCOMENTAR: 'rootDir=src' / 'outDir=dist' / 'moduleResolution'
+npm install --save-dev @types/node
+
+src > 
+server.ts > ("start-dev": "nodemon -e ts,json,mustache src/server.ts")
+
+TRANSFORMAR NO AR =
+
+
+"start": "node dist/server.js",
+"postinstall": "",
+
+npm install --save-dev copyfiles
+
+npm run postinstall
+
+------------
+
+Banco de Dados - nao esquecer de mexer no instances-pg.ts 
+
+@ENV
+PORT=2000
+
+MYSQL_DB=test
+MYSQL_USER=root
+MYSQL_PASSWORD=8819
+MYSQL_PORT=3306
+
+
+npm install --save-dev @types/sequelize
+npm install mysql2 (dentro do projeto)
+
+-----MongoDB
+
+npm install mongoose
+
+MONGO_URL=mongodb://localhost:27017/loja
+
+
+
+
+-----API
+
+npm install dotenv express pg pg-hstore sequelize validator
+tsc --init
+npm install -D @types/express @types/node @types/sequelize @types/validator
+
+----------REACT DOM ROUTER
+import {BrowserRouter} from 'react-router-dom'
+
+npm install react-router-dom
+
+<React.StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+</React.StrictMode> - NO Index
+
+
+
+
+
+
+CRUD
+
+SERVER
+npm init -y
+npm install express nodemon mongoose
+npm install @types/express
+npm install dotenv
+
+
+------------ Bibliotecas de UPLOAD ------------
+
+express-fileupload - multer - formidable
+
+npm install multer
+npm install -D @types/multer
+
+sharp - manipular imagens
+
+
+------------ Auth ------------
+jsonwebtoken
+bcrypt - criptogravar senhas
+
+npm install -D @types/jsonwebtoken
+
+------------ Email ------------
+nodemailer
+
+sendgrid - servidor para envio de email
+
+------------ Lib passport ------------
+
+npm install passport
+npm install -D @types/passport
+
+basic auth - npm install passport-http + types
+JWT auth passport -  npm install passport-jwt jsonwebtoken + types
+
+GIT
+rd .git /S/Q
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/SaagaS0/Roblox-GIFF.git
+git branch -M main
+git push -u origin main
+git push origin main --force
+
+atualizacoes - git pull origin main
+git commit -m "descricao do commit"
+git push origin main --force
+
+
+ADMIN
+
+npm install adminjs @adminjs/express @adminjs/sequelize express express-formidable tslib
+npm install @adminjs/sequelize postgress sequelize pg pg-hstore
+npm install sequelize-cli
+
+cd ./src/
+npx sequelize-cli init
+
+
+201 - Objeto criado com sucesso
+403 - Conta errada
+401 - Dados incorretos
+409 - Conta ja existe
+404 - recurso nao achado
+
+eslints = 
+// eslint-disable-next-line react-hooks/exhaustive-deps
+
+BOOTSTRAP 4
+npm install --save bootstrap
+npm install --save reactstrap react react-dom
+

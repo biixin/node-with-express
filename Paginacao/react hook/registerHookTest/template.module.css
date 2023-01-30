@@ -1,0 +1,43 @@
+
+.register {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding: 30px;
+}
+
+.register div {
+    margin: 0px;
+    
+}
+
+.register input {
+    color: #ccc;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid gray;
+    margin-bottom: 5px;
+}
+
+.register button {
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: #57b846;
+}
+
+form span {
+    color: red;
+    font-size: 15px;
+    margin-bottom: 20px;
+   
+}
+
